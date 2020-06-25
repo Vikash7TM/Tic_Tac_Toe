@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*the board coordinates are as follows bottom left cell has coordinates(1,1) and top right has(3,3)
+* (1,3)(2,3)(3,3)
+* (1,2)(2,2)(3,2)
+* (1,1)(2,1)(3,1)
+* */
 public class Main_V2 {
     public static Scanner scn = new Scanner(System.in);
     final static int xsum=264;
@@ -20,7 +24,7 @@ public class Main_V2 {
         displayBoard(board);
         char player = 'X';
         while (eflag) {
-            int cordR=0,cordC=0;
+            int cordR,cordC;
             while (true) {
                 System.out.print("Enter the coordinates: ");
                 String[] coord = scn.nextLine().split(" ");
