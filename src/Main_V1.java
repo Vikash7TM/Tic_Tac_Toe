@@ -1,8 +1,9 @@
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
+/*the board coordinates are as follows bottom left cell has coordinates(1,1) and top right has(3,3)
+ * (1,3)(2,3)(3,3)
+ * (1,2)(2,2)(3,2)
+ * (1,1)(2,1)(3,1)
+ * */
 
 public class Main_V1 {
     public final static Scanner scn = new Scanner(System.in);
